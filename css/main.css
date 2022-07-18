@@ -1,4 +1,108 @@
-body {
-    background-color: #3d3d3d;
+body{
+    background-color: #616161;
     color: white;
+    margin: 0px;
+}
+
+.container{
+  background-color: #3d3d3d;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.logo{
+  text-align: center;
+  padding: 1px;
+}
+
+.logo h1{
+  color: rgb(192, 78, 78);
+}
+
+.logo h2{
+  color: rgb(221, 212, 126);
+}
+
+
+.nav{
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+.search{
+  text-align: center;
+  padding: 5px;
+}
+
+.content{
+  text-align: center;
+}
+
+.races{
+  float: left;
+  width: 25%;
+}
+
+.classes{
+  float: left;
+  width: 25%;
+}
+
+.spells{
+  float: left;
+  width: 25%;
+}
+
+.magic_items{
+  float: left;
+  width: 25%;
+}
+
+.backgrounds{
+  clear: both;
+  float: left;
+  width: 25%;
+}
+
+.adv_gear{
+  float: left;
+  width: 25%;
+}
+
+.feats{
+  float: left;
+  width: 25%;
+}
+
+.monsters{
+  float: left;
+  width: 25%;
+}
+
+.vehicles{
+  clear: both;
+  float: left;
+  width: 25%;
+}
+
+.rules{
+  float: left;
+  width: 25%;
+}
+
+.homebrew{
+  float: left;
+  width: 25%;
+}
+
+.ua{
+  float: left;
+  width: 25%;
+}
+
+.footer{
+  clear: both;
+  text-align: center;
+  background-color: black;
 }
