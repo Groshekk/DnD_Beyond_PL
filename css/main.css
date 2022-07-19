@@ -12,6 +12,7 @@ body{
 
 .logo{
   text-align: center;
+  width: 100%;
   padding: 1px;
 }
 
@@ -22,7 +23,6 @@ body{
 .logo h2{
   color: rgb(221, 212, 126);
 }
-
 
 .nav{
   background-color: black;
@@ -35,8 +35,12 @@ body{
   padding: 5px;
 }
 
-.content{
-  text-align: center;
+.content {
+  text-align: center; 
+}
+
+.content img{
+  max-width: 50%;
 }
 
 .races{
@@ -105,4 +109,5 @@ body{
   clear: both;
   text-align: center;
   background-color: black;
+  padding: 6px;
 }
